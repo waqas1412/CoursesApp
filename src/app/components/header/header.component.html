@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#">CourseApp</a>
+    <button aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+            data-bs-target="#navbarColor01" data-bs-toggle="collapse" type="button">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -13,7 +14,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Courses</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
@@ -21,21 +22,23 @@
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
+
+        <form class="d-flex">
+          <input class="form-control me-sm-2" placeholder="Search" type="text">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </ul>
+      <ul class="navbar-nav me-3">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+             href="#"
+             role="button">Login/Signup</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
+            <a class="dropdown-item" href="#">Login</a>
+            <a class="dropdown-item" href="#">Sign Up</a>
           </div>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
   </div>
 </nav>
