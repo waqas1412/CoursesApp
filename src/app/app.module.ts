@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { CoursesComponent } from './courses/courses.component';
 import { CourseListComponent } from './courses/course-list/course-list.component';
 import { CourseItemComponent } from './courses/course-list/course-item/course-item.component';
+import { CourseCategoryComponent } from './courses/course-category/course-category.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CourseItemComponent } from './courses/course-list/course-item/course-it
     HeaderComponent,
     CoursesComponent,
     CourseListComponent,
-    CourseItemComponent
+    CourseItemComponent,
+    CourseCategoryComponent
   ],
   imports: [
     BrowserModule,
